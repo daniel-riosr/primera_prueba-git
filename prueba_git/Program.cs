@@ -10,6 +10,14 @@ namespace prueba_git
     {
         static void Main(string[] args)
         {
+            if (args.Length == 0)
+            {
+                Console.WriteLine("g");
+            }
+            else
+            {
+                Console.WriteLine("j");
+            }
         }
     }
 }
